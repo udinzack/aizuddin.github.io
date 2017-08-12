@@ -1,0 +1,55 @@
+h1 {
+  color: red;
+}
+
+body {
+  background: yellow;
+  font-size: 20px;
+}
+
+.container {
+  margin: 20px;
+  padding: 20px;
+}
+
+.small-container {
+  min-height: 50vh;
+  padding-top: 30vh;
+  text-align: center;
+  list-style-position: inside;
+}
+
+#about{
+  transform:rotate(0deg);
+}
+
+
+#special{
+  text-decoration: none;
+}
+
+#navbar {
+  position: fixed;
+  width: 90vw;
+}
+
+#navbar .nav-links {
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+}
+
+#navbar .nav-links:hover {
+  color: red;
+}
+
+#contact input, textarea {
+  padding: 20px;
+  margin: 15px auto;
+  font-size: 18px;
+  border: none;
+}
+
+#contact input[type="submit"] {
+  background-color: #FFC169;
+}
